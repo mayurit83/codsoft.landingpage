@@ -1,0 +1,117 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f8f8f8; */
+    line-height: 1.6;
+    background-image:url(images.jpeg);
+    background-size: cover; /* Adjust the background size as needed */
+    background-color: rgba(255, 255, 255, 10);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex; /* Use flexbox to center the items horizontally */
+    justify-content: center; /* Center items horizontally */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Hover color: Gold */
+}
+
+#hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FFD700; /* CTA button background: Gold */
+    color: #333;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #333; /* Hover background: Dark gray */
+    color: #fff;
+}
+
+#about, #features, #contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2, #features h2, #contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#about p, #features ul {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact label, #contact input, #contact textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact button:hover {
+    background-color: #FFD700; /* Hover background: Gold */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
